@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Public Address",
+    "version": "1.0",
+    "description": "Find your Public Address instantly.",
+    "action": {
+        "default_popup":"../files/index.html"
+
+    }
+}

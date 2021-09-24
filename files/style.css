@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 90vh;
+    min-width: 800px;
+    font-family: sans-serif;
+    display: grid;
+    place-items: center;
+}
+.container {
+    max-width:50%;
+    max-height: 70vh;
+    background: rgba(221, 8, 8, 0.205);
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 40px;
+}
+
+.title {
+    text-align: center;
+}
+#time,#address,#country,#region,#longitude,#latitude {
+    margin: 10% 0 12% 0;
+    font-size: 20px;
+}
+
+@media(max-width:700px) {
+
+    .header {
+        font-size: 16px;
+    }
+    .container{
+        width: 70%;
+        height: 60vh;
+        padding: 20px;
+    }
+    #time,#address,#country,#region,#longitude,#latitude {
+        margin: 10% 0 15% 0;
+        font-size: 15px;
+    }
+    
+}
